@@ -1,4 +1,4 @@
-FROM node:dubnium-slim
+FROM node:jod-slim
 
 RUN npm i -g yarn
 

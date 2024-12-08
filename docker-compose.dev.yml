@@ -8,7 +8,7 @@ services:
     image: eclipse-mosquitto:latest
     restart: always
   node_app:
-    image: node:dubnium-alpine
+    image: node:jod-alpine
     depends_on:
       - mongodb
       - mqtt_server
