@@ -2,7 +2,7 @@ version: 2
 
 aliases:
   - working_directory: &working_directory ~/homie-iot-mongodb.ts
-  - image: &image circleci/node:dubnium-stretch
+  - image: &image circleci/node:10.24.1-stretch
   - &defaults
     working_directory: *working_directory
     docker:
